@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: Target-Groups-Delete-Dialog
+flag: Flag-Health
 flagType: boolean
 description: ""
 labels:

@@ -2,18 +2,17 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: Target-Groups-Delete-Dialog
+flag: Flag-Health
 
 enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: true
 
 conditions:
   - allOf:
       - anyOf:
           - group:
-              name: QA-team
+              name: developers
     flagValue: false

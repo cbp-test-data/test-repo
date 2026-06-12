@@ -3,5 +3,5 @@ apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-properties
 
 name: userId
-type: Number
+type: String
 description: ""
