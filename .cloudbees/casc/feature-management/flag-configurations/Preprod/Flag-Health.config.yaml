@@ -8,13 +8,10 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
 
-conditions:
-  - allOf:
-      - property:
-          name: userId
-          operator: in-array
-          operands:
-            - 214rwerr313
-    flagValue: true
+conditions: []

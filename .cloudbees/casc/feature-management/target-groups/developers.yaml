@@ -12,4 +12,4 @@ conditions:
         name: userId
         operator: in-array
         operands:
-            - 123w2323
+            - 2134324dffw3213
