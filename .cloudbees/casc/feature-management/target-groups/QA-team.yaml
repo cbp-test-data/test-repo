@@ -2,14 +2,15 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: developers
+name: QA-team
 
 description: 
 
 conditions:
   allOf:
     - property:
-        name: userId
+        name: userEmail
         operator: in-array
         operands:
-            - 2134324dffw3213
+            - abc@efg.com
+            - efg@abc.com
